@@ -1,7 +1,8 @@
 # Measuring the level in a rainwater tank with 2 different sensors
 
-![rainwater tank](png/rainwater_tank_u_sensor_2_450.png "rainwater tank")
-![rainwater tank](png/rainwater_tank_450.png "rainwater tank")
+![rainwater tank](png/rainwater_tank_350.png "rainwater tank")
+![rainwater tank](png/rainwater_tank_2_350.png "rainwater tank")
+
 
 ## Some infos
 
