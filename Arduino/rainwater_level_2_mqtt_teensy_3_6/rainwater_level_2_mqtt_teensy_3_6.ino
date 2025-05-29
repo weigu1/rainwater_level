@@ -30,16 +30,16 @@
 //#define SET_TEENSY_TIME
 
 const unsigned int MQTT_PACKET_SIZE_MAX = 1024; //override value in PubSubClient.h
-byte mac[]    = {  0xDE, 0xED, 0xBB, 0xFA, 0xFE, 0xED };
-IPAddress eth_ip     (192,168,1,33); //static IP
-IPAddress dns_ip     (192,168,1,20);
-IPAddress gateway_ip (192,168,1,20);
+byte mac[]    = { 0xDE, 0xED, 0xBC, 0xFA, 0xFE, 0xED };
+IPAddress eth_ip     (192,168,178,12); //static IP
+IPAddress dns_ip     (192,168,178,1);
+IPAddress gateway_ip (192,168,178,1);
 IPAddress subnet_mask(255,255,255,0);
 
-const char *MQTT_SERVER_IP = "192.168.1.60";
+const char *MQTT_SERVER_IP = "192.168.178.22";
 const int  MQTT_PORT = 1883;
-const char *MQTT_CLIENT_ID = "smartmeters_p1_rw_S0";
-const String MQTT_TOPIC = "weigu/basement/storage";
+const char *MQTT_CLIENT_ID = "rainwater_level_1";
+const String MQTT_TOPIC = "garden/rainwater";
 const String MQTT_ST[] = {"/rainwater_level"};
 
 EthernetClient eth_Client;
